@@ -33,7 +33,7 @@ export const profile={
   address :"Austin",
   country:"Texas",
   addressOnMap:"https://www.google.com/maps?q=Austin,+TX&output=embed",
-  resumeLink:"https://drive.google.com/file/d/1p0Fe-WnPP4yrXxugLCgLN_As1EUhgeTq/view?usp=sharing",
+  resumeLink:"https://drive.google.com/file/d/1fxZbfdZGjTMlDUpMpj9zT6T95dVIizYW/view?usp=sharing",
   phone:"+1 (409) 250-2162",
 }
 
