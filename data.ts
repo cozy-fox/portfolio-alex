@@ -34,7 +34,7 @@ export const profile={
   country:"Texas",
   addressOnMap:"https://www.google.com/maps?q=Austin,+TX&output=embed",
   resumeLink:"https://drive.google.com/file/d/1fxZbfdZGjTMlDUpMpj9zT6T95dVIizYW/view?usp=sharing",
-  phone:"+1 (409) 250-2162",
+  phone:"+1 (402) 284-3534",
 }
 
 export const menus: MenuData[] = [
@@ -82,7 +82,7 @@ export const socialMedia: SocialMedia[] = [
     Icon: SiGmail,
     label: "Mail",
     logoColor: "#D14836",
-    mediaUrl: "mailto:alexuptal@gmail.com",
+    mediaUrl: "mailto:chragonz@gmail.com",
     info: "Leave me a email and keep touch with each other",
   },
   {
