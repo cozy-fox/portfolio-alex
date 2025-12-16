@@ -3,7 +3,6 @@ import Facts from "./Facts"
 import MyServices from "./MyServices"
 import Testimonial from "../Testimonial"
 import Title from "../Title"
-import { quoteData } from "../../data"
 
 export default function About() {
   return (
@@ -14,10 +13,7 @@ export default function About() {
       <Title name="my services" />
       <MyServices />
 
-      <Title name="quote" />
-      <Testimonial testimonial={quoteData} />
-
-      <Title name="fun facts" />
+      <Title name="More Info" />
       <Facts />
     </section>
   )

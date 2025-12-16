@@ -1,24 +1,18 @@
 import { AiOutlineGithub } from "react-icons/ai"
 import {
-  FaSkype,
-  FaDiscord,
   FaEye,
   FaLinkedin,
   FaRegListAlt,
   FaRegUser,
-  FaWhatsapp,
-  FaLink,
+  FaPhone,
 } from "react-icons/fa"
 import { FiSend } from "react-icons/fi"
 import { MdComputer, MdDashboard } from "react-icons/md"
 import {
-  SiFigma,
   SiChatbot,
   SiDatabricks,
   SiGitextensions,
   SiNodedotjs,
-  SiUikit,
-  SiThreedotjs,
   SiGmail
 } from "react-icons/si"
 import About from "./components/aboutPage/About"
@@ -28,7 +22,6 @@ import Resume from "./components/resumePage/Resume"
 import Stats from "./components/statistics/Stats"
 import Works from "./components/worksPage/Works"
 import {
-  ClientData,
   MenuData,
   ServiceData,
   SocialMedia,
@@ -102,11 +95,11 @@ export const socialMedia: SocialMedia[] = [
   },
   {
     id: 3,
-    Icon: FaWhatsapp,
-    label: "Whatsapp",
+    Icon: FaPhone,
+    label: "Phone",
     logoColor: "#25d366",
-    mediaUrl: "https://web.whatsapp.com/",
-    info: "Feel free to call me anytime you want (+1 (409) 250-2162)",
+    mediaUrl: "",
+    info: "Feel free to call me anytime you want (+1 (402) 284-3534)",
   },
   {
     id: 4,
@@ -148,12 +141,3 @@ export const services: ServiceData[] = [
       "Docker, Git, GitHub, GitLab, Bitbucket, Jenkins, AWS, GCP",
   },
 ]
-
-export const quoteData: TestimonialData = {
-  id: "quote",
-  quote:
-    "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
-  userName: "Albert Schweitzer",
-  userProfession: "Alsatian Polymath | Theologian | Musicologist",
-  userImage: { url: "/images/albert.jfif" },
-}
